@@ -1,0 +1,7 @@
+library(jsonlite)
+.libPaths()
+getwd()
+loadedNamespaces()
+sessionInfo()
+search()
+
