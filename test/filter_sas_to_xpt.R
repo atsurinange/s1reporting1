@@ -1,7 +1,10 @@
+#!/usr/bin/env Rscript
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #Reading sas7bdat, searching and generate csv file
 #!/usr/bin/env Rscript
 # 入力: <input.sas7bdat> <column> <value> <output_xpt>
 # 出力: <output_base>.xpt（中間ファイル）
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 req_pkgs <- c("haven", "dplyr")
 missing <- req_pkgs[!req_pkgs %in% installed.packages()[, "Package"]]

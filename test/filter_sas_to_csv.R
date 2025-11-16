@@ -1,11 +1,11 @@
+#!/usr/bin/env Rscript
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #Reading sas7bdat, searching and generate CSV file
 #Using custom logger to output high-level structured log for audittrail
-#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#!/usr/bin/env Rscript
 # 入力: <input.sas7bdat> <column_name> <search_value> <output_base> 
 # 出力: <output_base>.csv（中間ファイル）
 # その後、SASで CSV -> sas7bdat へ変換
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ### Initialize Script Information ###
 current_script_name <- "filter_sas_to_csv.R"
