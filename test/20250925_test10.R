@@ -4,4 +4,8 @@ getwd()
 loadedNamespaces()
 sessionInfo()
 search()
+renv::project()
+renv::paths$library()
+renv::paths$cache()
+renv::status()
 
